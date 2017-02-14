@@ -4,9 +4,10 @@ This repository is based on /DataExplorationTool. The driver classes in that rep
 
 
 ##### To dos
-* Look into mode() and median()
-* Bivariate statistics: frequency tables, Chi-Squared, etc
-* How to handle graphs with dask (sample? compute where possible?)
+* Univariate: Look into mode() and median()
+* Univariate: kurtosis(), skew() not available on dask DataFrames
+* Bivariate: frequency tables, Chi-Squared, etc
+* All: How to handle graphs with dask (sample? compute where possible?)
 * Determine which operations can be done in-place versus making a new copy
 * Try with larger and larger data sets to find the upper bound
 
